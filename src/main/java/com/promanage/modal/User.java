@@ -63,4 +63,14 @@ public class User {
 		this.password=encode;
 		
 	}
+
+	public int getProjectSize() {
+		// TODO Auto-generated method stub
+		return projectSize;
+	}
+
+	public void setProjectSize(int projectSize) {
+		this.projectSize=projectSize;
+		
+	}
 }
