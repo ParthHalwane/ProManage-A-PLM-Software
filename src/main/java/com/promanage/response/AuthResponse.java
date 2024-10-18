@@ -10,20 +10,11 @@ import lombok.NoArgsConstructor;
 public class AuthResponse {
 	private String jwtString;
 	private String message;
-
-	public void setJwt(String jwtstring) {
-		this.jwtString = jwtstring;
-	}
-
 	public void setMessage(String message) {
-		this.message = message;
+		this.message=message;
 	}
-
-	public String getMessage() {
-		return message;
+	public void setJwt(String jwtString) {
+		this.jwtString=jwtString;
 	}
-
-	public String getJwt() {
-		return jwtString;
-	}
+	
 }
